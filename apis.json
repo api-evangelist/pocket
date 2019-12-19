@@ -1,0 +1,93 @@
+{
+    "name": "Pocket",
+    "description": "When you find something you want to view later, put it in Pocket.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1114-pocket.jpg",
+    "tags": [
+        "bookmarks",
+        "have api",
+        "reading"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/pocket\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Pocket",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1114-pocket.jpg",
+            "humanURL": "http:\/\/getpocket.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/pocket-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/getpocket.com"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/getpocket.com\/blog"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/feeds2.feedburner.com\/ReadItLaterBlog"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/pocket"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/pocket"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/getpocket.com\/api\/"
+        },
+        {
+            "type": "Email",
+            "url": "privacy@getpocket.com"
+        },
+        {
+            "type": "Email",
+            "url": "legal@getpocket.com"
+        },
+        {
+            "type": "Email",
+            "url": "add@getpocket.com"
+        },
+        {
+            "type": "Email",
+            "url": "business@getpocket.com"
+        },
+        {
+            "type": "Email",
+            "url": "sponsor@getpocket.com"
+        },
+        {
+            "type": "Email",
+            "url": "api@getpocket.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/Pocket"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/#!\/pocket"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/getpocket.com"
+        }
+    ]
+}
