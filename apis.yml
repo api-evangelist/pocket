@@ -1,0 +1,32 @@
+aid: pocket
+name: Pocket
+description: "Bookmarking service"
+url: https://getpocket.com/developer/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Documents & Productivity"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Documents And Productivity
+  - Public APIs
+apis:
+  - name: Pocket
+    description: "Bookmarking service"
+    humanURL: https://getpocket.com/developer/
+    baseURL: https://getpocket.com/developer/
+    tags:
+      - Documents And Productivity
+    properties:
+      - type: Documentation
+        url: https://getpocket.com/developer/
+common:
+  - type: Website
+    url: https://getpocket.com/developer/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
