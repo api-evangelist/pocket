@@ -54,3 +54,36 @@
     builder: Pipedream repo (component)
   status: not-a-workflow
   arazzo: null
+- slug: pocket-meltano
+  label: Meltano
+  partner: meltano
+  partner_name: Meltano
+  type: marketplace
+  marketplace: meltano-hub
+  channel: elt-connector
+  evidence: https://hub.meltano.com/extractors/tap-getpocket--airbyte
+  source: edge
+  relationship: ipaas-bridge
+  contract_reference:
+    register: Meltano Hub (github.com/meltano/hub _data/meltano extractors + loaders)
+    spec_file: null
+    role: elt-connector:meltano-hub
+    registered_name: Pocket
+    matched_domain: getpocket.com
+    matched_by: domain
+    detected_by: sweep-data-integration.py
+    detected: '2026-10-18'
+    signal_note: one edge per (provider, platform); connectors, streams, packages and usage are context, never read
+    plugins:
+    - tap-getpocket--airbyte
+    - tap-getpocket--edgarrmondragon
+    - tap-getpocket--evelte
+    maintenance_status:
+    - active
+    - beta
+    quality:
+    - bronze
+    - silver
+    builder: 'community (Meltano Hub variant maintainers: airbyte, edgarrmondragon, evelte)'
+  status: pending-partner-spec
+  arazzo: null
