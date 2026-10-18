@@ -40,7 +40,8 @@ apis:
   - name: Pocket
     description: "Bookmarking service"
     humanURL: https://getpocket.com/developer/
-    tags:
+    tags: []
+    tags_raw:
       - Documents And Productivity
     properties:
       - type: Documentation
